@@ -2,13 +2,19 @@ return {
   "williamboman/mason.nvim",
   opts = {
     ensure_installed = {
+      --c/c++
       "clangd",
-      "stylua",
+      --json
       "json-lsp",
+      --lua
       "lua-language-server",
+      "stylua",
+      --shell
       "shellcheck",
       "shfmt",
+      --python
       "flake8",
+      "pyright",
     },
   },
 }
