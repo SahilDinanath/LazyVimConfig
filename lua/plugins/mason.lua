@@ -15,6 +15,10 @@ return {
       --python
       "flake8",
       "pyright",
+      --webdev
+      "html-lsp",
+      "eslint-lsp",
+      "svelte-language-server",
     },
   },
 }
