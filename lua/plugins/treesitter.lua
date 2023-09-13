@@ -22,6 +22,7 @@ return {
       "vimdoc",
       "yaml",
       "svelte",
+      --"dart",
     },
   },
   highlight = {
